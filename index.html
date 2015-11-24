@@ -1,0 +1,47 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta name="fragment" content="!">
+
+  <meta charset="utf-8" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ site.description }}" />
+
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="{{ site.baseurl }}/assets/imgs/logo.png" />
+
+  <title>{{ site.title }}</title>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <script type="application/ld+json">
+      {
+      "@context": "http://schema.org/",
+      "@type": "Organization",
+      "url": "{{ site.baseurl }}",
+      "logo": "{{ site.baseurl }}/assets/imgs/logo.png"
+      }
+    </script>
+</head>
+<body>
+
+  {% include nav.html %}
+  {% include header.html %}
+  {% include about.html %}
+  {% include beyond.html %}
+  {% include newsletter.html %}
+  {% include footer.html %}
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="{{ site.baseurl}}/assets/js/function.js"></script>
+</body>
+</html>
