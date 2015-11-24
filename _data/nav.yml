@@ -1,5 +1,0 @@
-menu:
-- {name: Home, url: '#home'}
-- {name: About Us, url: '#about'}
-- {name: Beyond Worlds, url: '#bw'}
-- {name: Contact, url: '#contact'}
